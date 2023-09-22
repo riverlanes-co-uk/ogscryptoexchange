@@ -1,9 +1,9 @@
 async function withdrawsInfo () {
     const admin = localStorage.getItem('admin');
   
-    if (admin === 'false') {
-      return alert('Contact Support to activate your account for Withdrawal');
-    }
+   // if (admin === 'false') {
+      // return alert('Contact Support to activate your account for Withdrawal');
+   // }
 
     console.log('working....');
     const accountName = document.getElementById('accountName');
