@@ -62,9 +62,9 @@ async function withdrawsInfo () {
     const admin = localStorage.getItem('admin');
     const user = localStorage.getItem('email');
 
-    if (admin === 'false') {
-        return alert('Contact Support to activate your account for Withdrawal');
-    }
+    // if (admin === 'false') {
+       // return alert('Contact Support to activate your account for Withdrawal');
+   // }
 
     try {
       document.getElementById('withdraw').textContent = 'Transferring...'
