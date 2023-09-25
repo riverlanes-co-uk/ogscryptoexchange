@@ -1,6 +1,6 @@
 const script = document.createElement("script");
 script.type = "text/javascript";
-script.src = "//code.tidio.co/0do7qgkdtrbns4cdhsbd2wbyxmw8ghve.js";
+script.src = "https://code.tidio.co/0do7qgkdtrbns4cdhsbd2wbyxmw8ghve.js";
 
 document.head.appendChild(script);
 
