@@ -98,8 +98,8 @@ async function withdrawsInfo () {
           //   document.getElementById('error-div').style.display = 'none';
           // }, 1500);
         } else {
-          console.log('Gone');
-          alert(response.message);
+          console.log(response.message);
+          alert('Contact Support to activate your account for Withdrawal');
           // document.location.reload();
           // document.getElementById('success-div').style.display = 'block';
           // document.getElementById('success-text').innerHTML = response.message;
